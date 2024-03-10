@@ -473,7 +473,6 @@ function isEip1167(code: string) {
 }
 
 async function findHiddenMint(text: string) {
-  // const regex = new RegExp("emit transfer\\(address\\(0\\)", "gi");
   const regex = new RegExp("uint256\\s+private\\s+\\w+\\s*=\\s*\\d+\\s*\\*\\s*1e\\d+\\s*\\*\\s*10\\*\\*\\w+;", "gm");
   const matches: string[] = [];
   let match: RegExpExecArray | null;
@@ -484,7 +483,6 @@ async function findHiddenMint(text: string) {
 }
 
 async function extractAddress(text: string) {
-  // const regex = new RegExp("emit transfer\\(address\\(0\\)", "gi");
   const regex = new RegExp("0x[0-9A-Fa-f]{40}", "gi");
   const matches: string[] = [];
   let match: RegExpExecArray | null;
