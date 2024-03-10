@@ -1,6 +1,6 @@
 # isRug.API
 
-_isRug simulates buying and selling transaction on ERC-20 tokens to detect if a token is a honeypot or scam. Buy/Sell taxes, Buy/Sell gas fees, supplying informations, liquidity informations which will be improved for multidex, contract function analysis, proxy contracts, hidden malicious contracts that used to control the token contract, and some other key informations are provided._
+_isRug is a tool that simulates buying and selling transactions on ERC-20 tokens in order to detect if a token is a honeypot or a scam. It provides information on buy/sell taxes, buy/sell gas fees, liquidity information, and contract function analysis using a solidity parser. It also identifies proxy contracts, and hidden malicious contracts that could potentially compromise the token contract. In addition, isRug comes with other modules such as the scan website scraper, which provides key informations like holders, named addresses, etc. to help users make informed decisions about investing in a particular token._
 
 ## How to deploy?
 
