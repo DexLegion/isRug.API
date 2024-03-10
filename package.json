@@ -11,7 +11,6 @@
     "start": "ts-node src/server.ts",
     "build": "tsc -b",
     "generate": "typechain --target node_modules/@hovoh/typechain-ethers-multicall --out-dir ./src/abi/generated --always-generate-overloads ./src/abi/json/*.json",
-    "finder": "ts-node src/finder/main.ts",
     "lint": "eslint --ext .ts src",
     "lint:fix": "eslint --ext .ts src --fix"
   },
