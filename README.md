@@ -1,9 +1,17 @@
 # isRug.API
+Isrug honeypot checker. 
 
-https://t.me/isrugapp
-https://isrug.app
+- To generate types of ABIs, use the generate script.
+- Finder is an external module that listens to the blockchain and checks verified contracts on the scan website.
 
-- To generated types of ABI's, use generate script.
-- Finder is external module that listens the blockchain and checking verified contracts on scan website.
+<h2>Links</h2>
+<a href="https://t.me/isrugapp">isRug Telegram Channel</a> <br /> 
+<a href="https://isrug.app">isRug Website</a>
 
-Written by https://github.com/Thedexplorer and https://github.com/b68h4
+
+<h2>Authors</h2>
+<a href="https://github.com/Thedexplorer">Dexplorer</a> <br /> 
+<a href="https://github.com/b68h4">b68h4</a>
+
+<h2>Licence</h2>
+MIT
