@@ -246,11 +246,6 @@ app.get("/tokens/scan:from", async function (req, res): Promise<ScanResult> {
             const name = func.name;
             const mods = func.modifiers;
 
-            // if (config.blacklistedCodes[name]) {
-            //   knownScammer = config.blacklistedCodes[name].forEach((x) => code.includes(x)) ? true : false;
-            //   console.log(knownScammer, code, config.blacklistedCodes[name][0]);
-            // }
-
             functions = {
               ...functions,
               [name]: {
@@ -454,12 +449,6 @@ app.get("/chains", async function (req, res) {
   const chains = await getChains(address);
   return chains;
 });
-
-// app.get("/3rd/explorer/tokenCreator", async function (req, res) {
-//   let address = req.query["addr"];
-//   let from = await exportTokenFrom(address);
-//   return from;
-// });
 
 app.get("/3rd/tokenList/cmc", async (req, res) => {
   const address = req.query["addr"];

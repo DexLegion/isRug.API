@@ -37,7 +37,6 @@ const getNet = async (
 
 const mongocli = new MongoClient("write-your-mongodb-uri");
 const mongodb = mongocli.db("isrug");
-const nodeDb = mongocli.db("isrug_nodes");
 const fbyte = mongodb.collection<FBFunc>("4byte");
 const wlfc = mongodb.collection<Whitelist>("wl_functions");
 const dbstor = mongodb.collection<Method>("func_storage");
