@@ -1,0 +1,9 @@
+**node_modules**
+*-lock.json
+**functionDB**
+*.lock
+temp/*
+*-lock.yaml
+**dist**
+
+**src/abi/generated**
